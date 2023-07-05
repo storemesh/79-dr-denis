@@ -1,11 +1,11 @@
 version: '2.3'
 services:
-  ctscan:
-    build: .
+  dr-denis:
+    image: registry.gitlab.com/storemesh/small-project/79-dr-denis/jupyter-detectron:latest
     runtime: nvidia
-    command: sh /code/run_jupyter.sh
+    command: sh /run_jupyter.sh
     ports:
-      - 2888:8888
+      - 38888:8888
     volumes:
       - ./jupyter_notebook_config.json:/config/jupyter_notebook_config.json
       - ./code:/code

@@ -18,5 +18,5 @@ RUN pip3 install --upgrade setuptools pip
 RUN pip3 install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 COPY ./code/requirements.txt /code/requirements.txt
 RUN pip3 install -r /code/requirements.txt
-ADD run_jupyter.sh /code/run_jupyter.sh
 WORKDIR /code/
+ADD ./run_jupyter.sh /run_jupyter.sh

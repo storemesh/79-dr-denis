@@ -1,0 +1,8 @@
+jupyter
+scikit-learn
+seaborn
+tensorflow
+tqdm
+requests
+torch==1.10
+torchvision

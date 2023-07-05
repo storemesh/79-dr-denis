@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+  ctscan:
+    build: .
+    runtime: nvidia
+    command: sh /code/run_jupyter.sh
+    ports:
+      - 2888:8888
+    volumes:
+      - ./jupyter_notebook_config.json:/config/jupyter_notebook_config.json
+      - ./code:/code

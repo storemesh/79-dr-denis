@@ -1,0 +1,10 @@
+dataset,class,numberOfDataset
+test,disease,70
+test,healed,90
+test,healing,70
+train,disease,245
+train,healed,311
+train,healing,245
+validate,disease,35
+validate,healed,45
+validate,healing,35

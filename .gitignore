@@ -19,3 +19,4 @@ dataset/
 *.pth
 **.Trash-0
 **/.DS_Store
+**/.ipynb_checkpoints/
